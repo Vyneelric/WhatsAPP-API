@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    display: flex;
+}
+
+.barraDeContatos{
+    height: 100%;
+    width: 60vh;
+}
+
+.headerBarra{
+    display: flex;
+    height: 18vh;
+    flex-direction: column;
+    background-color: #111B21;
+}
+
+.input input{
+    height: 40px;
+    width: 57vh;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #202C33;  
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.input input::placeholder{
+    font-size: 16px;
+    color: #979fa3;
+}
+.input-icon {
+    background-image: url('../IMG/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 20px; 
+    padding-left: 55px;
+    height: 40px;
+  }
+  
+
+.headerBarra p{
+    height: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    color: white;
+}
+
+.botaos{
+    align-items: center;
+    justify-content: center;
+}
+
+.botaos button{
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #202C33;
+    box-shadow: none;
+    color: #808283;
+    height: 100px;
+    width: 100px;
+}
+
+.contatosDoUsuario{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #1A2831;
+}
+.container{
+    display: flex;
+}
+.unicoContato{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #1A2831;
+    color: white;
+    border-bottom: 1px solid #343636;
+}
+
+.infoContato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.infoContato span{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.nomeVisto{
+    display: flex;
+    align-items: center;
+}
+
+.nomeVisto span{
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.infoContato img{
+    height: 20px;
+    width: 20px;
+}
+.unicoContato p{
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.foto img{
+    height: 48px;
+}
+
+.data{
+    display: flex;
+}
+
+.data p{
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-top: 3px;
+    color: #808283;
+}
