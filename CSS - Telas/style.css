@@ -69,8 +69,6 @@ main{
 }
 
 .botaos button{
-    align-items: center;
-    justify-content: center;
     border: none;
     background: #202C33;
     box-shadow: none;
