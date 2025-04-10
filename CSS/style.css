@@ -16,7 +16,7 @@ main{
 
 .barraDeContatos{
     height: 100%;
-    width: 60vh;
+    width: 75vh;
 }
 
 .headerBarra{
@@ -28,7 +28,7 @@ main{
 
 .input input{
     height: 40px;
-    width: 57vh;
+    width: 95%;
     margin-left: 10px;
     border: none;
     outline: none;
@@ -64,8 +64,12 @@ main{
 }
 
 .botaos{
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-top: 10px;
+    gap: 20px;
+    margin-left: 10px;
 }
 
 .botaos button{
@@ -73,14 +77,15 @@ main{
     background: #202C33;
     box-shadow: none;
     color: #808283;
-    height: 100px;
-    width: 100px;
+    height: 35px;
+    width: 80px;
+    border-radius: 30px;
 }
 
 .contatosDoUsuario{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 82%;
     flex-direction: column;
     background-color: #1A2831;
 }
@@ -109,12 +114,12 @@ main{
     font-size: 22px;
 }
 
-.nomeVisto{
+.desc{
     display: flex;
     align-items: center;
 }
 
-.nomeVisto span{
+.desc span{
     font-family: "Roboto";
     font-size: 14px;
 }
@@ -142,4 +147,67 @@ main{
     font-size: 14px;
     padding-top: 3px;
     color: #808283;
+}
+
+.telaDaConversa{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #343636;
+    flex-direction: column;
+}
+
+.headerDaConversa{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    background-color: #202C33;
+}
+.headerDaConversa p{
+    margin-left: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.headerDaConversa img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.mainTelaConversa{
+    height: 100%;
+}
+
+.BlocoInput{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    background-color: #202C33;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.BlocoInput input{
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #2A3942;  
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.BlocoInput img{
+    height: 50px;
+    padding: 10px;
+    border-radius: 100px;
+}
+.BlocoInput input::placeholder{
+    color: #818181;
 }
