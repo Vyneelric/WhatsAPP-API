@@ -6,8 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="/JS/script.js" defer></script>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="./JS/script.js" defer></script>
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Tela zapzap</title>
 </head>
 <body>
@@ -15,79 +15,33 @@
         <div class="barraDeContatos">
             <div class="headerBarra">
                 <p>Conversas</p>
-            <div class="input">
-                <input type="text" class="input-icon" placeholder="Pesquisar">
-            </div>
-            <div class="botaos">
-                <button>Tudo</button>
-                <button>Não lidas</button>
-                <button>Favoritas</button>
-                <button>Grupos</button>
-            </div>
+                <div class="input">
+                    <input type="text" class="input-icon" placeholder="Pesquisar">
+                </div>
+                <div class="botaos">
+                    <button>Tudo</button>
+                    <button>Não lidas</button>
+                    <button>Favoritas</button>
+                    <button>Grupos</button>
+                </div>
             </div>
             <div id="contatos" class="contatosDoUsuario">
-                <div class="unicoContato">
-                    <div  id="container" class="container">
-                        <div class="foto">
-                            <img src="../IMG/foto.png" alt="">
-                        </div>
-                        <div class="infoContato">
-                            <span>Nome: teste</span>
-                            <div class="desc">
-                                <span>desc...</span> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="data">
-                        <p>12/4/2024</p>
-                    </div> 
-                </div>
-                <div class="unicoContato">
-                    <div class="container">
-                        <div class="foto">
-                            <img src="../IMG/foto.png" alt="">
-                        </div>
-                        <div class="infoContato">
-                            <span>Nome: teste</span>
-                            <div class="desc">
-                                <span>desc...</span> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="data">
-                        <p>12/4/2024</p>
-                    </div> 
-                </div>
-                <div class="unicoContato">
-                    <div class="container">
-                        <div class="foto">
-                            <img src="../IMG/foto.png" alt="">
-                        </div>
-                        <div class="infoContato">
-                            <span>Nome: teste</span>
-                            <div class="desc">
-                                <span>desc...</span> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="data">
-                        <p>12/4/2024</p>
-                    </div> 
-                </div>
+            
             </div>
         </div>
         <div class="telaDaConversa">
             <div class="headerDaConversa">
-                <img src="/IMG/foto.png" alt="">
-                <p>Andrei BUZÃO</p>
+                <img id="headerImg" src="./IMG/foto.png" alt="Foto do contato">
+                <p id="headerNome"> Escolha um contato </p>
             </div>
-            <div class="mainTelaConversa">
-                <p>Teste Teste</p>
+            <div class="mainTelaConversa" id="mainTelaConversa">
+            
+                <p>Selecione um contato para ver a conversa.</p>
             </div>
             <div class="BlocoInput">
-                <a href="#"><img src="/IMG/mais.png" alt=""></a>
+                <a href="#"><img src="./IMG/mais.png" alt=""></a>
                 <input type="text" placeholder="Digite uma mensagem">
-                <a href="#"><img src="/IMG/voz.png" alt=""></a>
+                <a href="#"><img src="./IMG/voz.png" alt=""></a>
             </div>
         </div>
     </main>

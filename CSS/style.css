@@ -6,7 +6,7 @@
 
 
 body{
-    height: 100vh;
+    height: 100vh;   
 }
 
 main{
@@ -177,7 +177,24 @@ main{
 }
 
 .mainTelaConversa{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    background-image: url(/IMG/background-zap.jpg);
+    background-repeat: 4;
+    background-size: 20%;
+    padding: 10px;
     height: 100%;
+}
+.mainTelaConversa P{
+    background-color: #005C4B;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    height: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
 }
 
 .BlocoInput{
@@ -210,4 +227,38 @@ main{
 }
 .BlocoInput input::placeholder{
     color: #818181;
+}
+/* Estilo para a caixa de mensagens enviadas */
+.minhaMensagem {
+    background-color: #005C4B;  /* Cor de fundo verde claro para mensagens enviadas */
+    color: #ffffff;
+    padding: 10px;
+    max-width: 60%;
+    margin-left: auto;  /* Alinha à direita */
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 10px;
+    word-wrap: break-word;  /* Quebra de linha caso o texto seja grande */
+}
+
+/* Estilo para a caixa de mensagens recebidas */
+.mensagemRecebida {
+    background-color: #272727;  /* Cor de fundo cinza para mensagens recebidas */
+    color: #ffffff;
+    padding: 10px;
+    max-width: 60%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 10px;
+    word-wrap: break-word; 
+}
+
+.mainTelaConversa p {
+    background-color: transparent; 
+    color: inherit;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    height: auto;
 }
